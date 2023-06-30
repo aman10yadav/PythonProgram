@@ -1,0 +1,5 @@
+print("Program to get ASCII value from input...")
+value = input("Enter a charcter/value to get ASCII value : ")
+
+#  ASCII value can be easily fetch by using ord()
+print(f"The ASCII value of {value} is = {ord(value)}")
