@@ -8,7 +8,6 @@ while (startingNumber * startingNumber) <= numberInput:
     if numberInput % startingNumber == 0:
         print(f"The number '{numberInput}' is not a prime number !!")
         break
-    steps += 1
     startingNumber += 1
 else :
     print(f"The number '{numberInput}' is a prime number !!")
